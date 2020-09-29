@@ -228,20 +228,22 @@ a.btn-fix:hover{
     color: #444;
     font-size: 22px;
     line-height: 30px;
-    margin: 0 0 0 40px;
-    padding: 50px 0px 20px 0px;
+    text-align: center;
+    padding: 50px 0px 0px 0px;
 }
 #under-pr-content{
     font-size: 16px;
     line-height: 24px;
-    margin: 0 0 0 40px;
     display: inline-block;
+    text-align: center;
     color :#bbb;
     padding-bottom: 70px;
 }
 .img-under-pr{
     padding-top: 70px;
     padding-bottom: 70px;
+    display: block;
+    margin: 0 auto;
 }
 .img-fix-right{
     background-image: url('../images/hl-6.jpg');
@@ -270,8 +272,8 @@ a.btn-fix:hover{
 .big-title-left{
     color: #444;
     font-size: 48px;
-    padding-left: 20%;
-    padding-right: 3%;
+    padding-left: 18%;
+    padding-right: 5%;
     padding-top: 7%;
     line-height: 45px;
     width: 100%;
@@ -279,12 +281,13 @@ a.btn-fix:hover{
 .big-title-under-left{
     font-size: 16px;
     color:#f77825;
-    margin-left: 20%;
+    margin-left: 18%;
     font-weight: 700;
 }
 .bit-title-content-left{
     color:#999;
-    margin-left: 20%;
+    margin-left: 18%;
+    margin-right: 10%;
     margin-bottom: 5%;
 }
 .text-left-img{
@@ -296,7 +299,7 @@ a.btn-fix:hover{
     content: "\e009";
 }
 a.fix_button{
-    margin-left: 20%;
+    margin-left: 18%;
     margin-top: 5%;
     color: #554263;
     border: 2px solid #554263;
@@ -385,13 +388,14 @@ a.fix_button1{
     width: 60%;
     margin: auto;
 }
-.canhtop{
-    margin-top: 60px;
-}
 /* phần on-footer */
+.canhtop{
+    margin-top: 100px;
+}
 .on-footer{
     background: #333;
     padding: 40px 0;
+    z-index: 100;
 }
 .pixicon-wine{
     color: #f77825;
