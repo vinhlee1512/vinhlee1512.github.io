@@ -482,7 +482,8 @@ ul{
     justify-content: center;
     align-items: center;
     position: fixed;
-    left: 92%;
+    left: 50%;
+    margin-left: -25px;
     bottom: 40px;
     z-index: 101;
 }
