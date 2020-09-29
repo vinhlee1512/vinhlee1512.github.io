@@ -482,8 +482,8 @@ ul{
     justify-content: center;
     align-items: center;
     position: fixed;
-    left: 50%;
-    margin-left: -25px;
+    left: 88%;
+    opacity: 0.4;
     bottom: 40px;
     z-index: 101;
 }
@@ -491,6 +491,7 @@ ul{
     border:2px solid #f77825;
     background:#444;
     cursor:pointer;
+    opacity: 0.6;
     bottom: 50px;
     transition: 0.5s;
 }
