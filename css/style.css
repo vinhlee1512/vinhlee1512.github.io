@@ -137,7 +137,6 @@ p.content-btn:hover{
     padding: 15px 10px;
     font-weight: bold;
     margin-bottom: 20px;
-    
 }
 .orange{
     background-color: orangered !important;
@@ -254,9 +253,6 @@ a.btn-fix:hover{
     height: 510px;
     position: relative;
 }
-/* .hehehe{
-    position: fixed;
-} */
 .hihi{
     width: 50%;
     display: inline-block;
@@ -267,7 +263,10 @@ a.btn-fix:hover{
 
 .text-left-img{
     background-color: #fff;
-    height: 1000px;
+    height: 511px;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
 }
 .big-title-left{
     color: #444;
@@ -289,11 +288,6 @@ a.btn-fix:hover{
     margin-left: 18%;
     margin-right: 10%;
     margin-bottom: 5%;
-}
-.text-left-img{
-    position: absolute;
-    background: white;
-    width: 100%;
 }
 .pixicon-ribbon:before {
     content: "\e009";
@@ -322,7 +316,8 @@ a.fix_button:hover{
 .text-right-img{
     position: absolute;
     background: white;
-    height: 1000px;
+    height: 511px;
+    z-index: 1;
     width: 100%;
 }
 .big-title-right{
@@ -378,6 +373,10 @@ a.fix_button1{
 .clear{
     clear: both;
 }
+.canh-top-brand{
+    margin-top: -20px;
+    margin-bottom: -50px;
+}
 .brand-logo{
     border-radius: 50%;
     display: block;
@@ -390,7 +389,7 @@ a.fix_button1{
 }
 /* phần on-footer */
 .canhtop{
-    margin-top: 100px;
+    margin-top: 90px;
 }
 .on-footer{
     background: #333;
@@ -485,6 +484,7 @@ ul{
     position: fixed;
     left: 92%;
     bottom: 40px;
+    z-index: 101;
 }
 #back_to_top:hover{
     border:2px solid #f77825;
